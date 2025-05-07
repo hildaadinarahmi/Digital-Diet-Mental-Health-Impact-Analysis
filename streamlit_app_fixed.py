@@ -42,7 +42,9 @@ input_dict = {
     "weekly_anxiety_score": anxiety,
     "stress_level": stress,
     "age": age,
+    "gender_Female": 1 if gender == "Female" else 0,
     "gender_Male": 1 if gender == "Male" else 0,
+    "location_type_Rural": 1 if location == "Rural" else 0,
     "location_type_Urban": 1 if location == "Urban" else 0
 }
 
